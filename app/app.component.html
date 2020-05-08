@@ -1,21 +1,19 @@
 <router-outlet></router-outlet>
-<h1>{{title }}</h1>
+<h1 style="text-align: center;">{{title }}</h1>
 <h3>{{welcomeMessage}}</h3>
-{{name}}
+
 <h4> Boolean</h4>
 The value of showDiv is {{showDiv}}
 
 <h4> Numbers </h4>
-<p>The Integer Number is {{intNumber}} </p>
-<p>The Hexadecimal Number is{{hexNumber}}</p>
-<p>The Binary Number is{{binNumber}}</p>
-<p>The Octal Number is{{octNumber}}</p>
+<p class="style1">The Integer Number is {{intNumber}} </p>
+<p class="style2">The Hexadecimal Number is{{hexNumber}}</p>
+<p class="style3">The Binary Number is{{binNumber}}</p>
+<p class="style4">The Octal Number is{{octNumber}}</p>
 
- <!-- //Strings
-  welcomeText : string = "Welcome to Angular Tutorial";
-  name : string = 'Nixon';
-  welcomeMessage : string = `Welcome ${name}, to the Angular Tutorial`;
+<h4>Arrays</h4>
+<p class="style1">The array is {{ageGroup}}</p>
+<p class="style2"> The First Element in the Array is {{ageGroup[0]}}</p>
+<p class="style3">The String array is {{namesList}}</p>
+<p class="style4"> The First Name in the Array is {{namesList[0]}}</p>
 
-  //Array
-  ageGroup : number[] = [1,2,3,4,5];
-  namesList : string[] = ['Edward', 'Nixon', 'Augustine'];  -->
