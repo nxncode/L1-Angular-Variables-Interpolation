@@ -3,7 +3,7 @@
 <h3>{{welcomeMessage}}</h3>
 
 <h4> Boolean</h4>
-The value of showDiv is {{showDiv}}
+The value of showDiv is <span class="highlight">{{showDiv}}</span>
 
 <h4> Numbers </h4>
 <p class="style1">The Integer Number is {{intNumber}} </p>
@@ -17,3 +17,6 @@ The value of showDiv is {{showDiv}}
 <p class="style3">The String array is {{namesList}}</p>
 <p class="style4"> The First Name in the Array is {{namesList[0]}}</p>
 
+Click on the Button below to change the value of showDiv.<br> 
+<i>Interpolation will reflect the change of a value immediately on the view.</i> <br>
+<button (click)="delay(2)">Click to Start Changing Value of showDiv</button>
